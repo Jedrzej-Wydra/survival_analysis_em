@@ -13,4 +13,12 @@ This project was a true test of perseverance — like navigating a labyrinth whe
 I’d love to say this was the last time I’d wrestle with such a problem, but let’s be honest—if history has taught me anything, it’s that complex projects have a way of pulling me right back in. Fingers crossed, though!
 
 ## Disclaimer
+The data used in this project were generously provided by the authors of other studies. You can access the original sources here:
+
+1. [Size at emergence improves accuracy of age estimates in forensically-useful beetle Creophilus maxillosus L. (Staphylinidae)](https://doi.org/10.1038/s41598-018-20796-1)
+2. [Estimation of physiological age at emergence based on traits of the forensically useful adult carrion beetle Necrodes littoralis L. (Silphidae)](https://doi.org/10.1016/j.forsciint.2020.110407)
+
+Due to data-sharing agreements and the sensitivity of the information, I am unable to share the datasets directly. These datasets were used with permission, and all analyses were conducted in accordance with the respective data-sharing agreements.
+
+## Disclaimer2
 This project is still in progress, but the finish line is finally in sight.
