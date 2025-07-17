@@ -1,16 +1,20 @@
-# A New Way to Calculate Thermal Summation Parameters for Forensically Useful Insects Using Mixture Models with Interval Estimation
+# Interval Estimation of Thermal Summation Parametersin Forensically Important Insects
 #### authors: Jędrzej Wydra, Łukasz Smaga, Szymon Matuszewski
 
 ## Abstract
-Estimating the time of death based on entomological evidence currently involves the use of the so-called “law of total effective temperature”. Application of this method requires knowledge of the development parameters of a given insect taxon. Previously, these parameters were calculated using Campbell’s method. However, Ikemoto and Takai identified three issues with this approach: it does not allow for the estimation of the optimal temperature range, disregards variance variability, and neglects random errors associated with temperature. Consequently, they proposed a new method to replace the one proposed by Campbell. However, this new approach also has some limitations. First, it does not allow for interval estimation of thermal summation parameter k. Due to a high variance in development of insects, point estimates may be of limited practical use. Second, it uses only a small percentage of available data for calculations (usually medians of development time for each temperature), which may lead to an unnecessary reduction of information and weaken results of regression analysis. Third, it assumes a homogeneous population, whereas the latest research indicates that developmental parameters are not constant within the population and depend, for instance, on the size of an insect. In this work, we propose an alternative method that effectively addresses the issues of its predecessors and also enables the detection of so-called component populations in experimental development data. We tested this method on data from previous studies (concerning C. maxillosus and N. littoralis).
+Estimating time of death based on entomological evidence commonly relies on the "law of total effective temperature", which requires developmental parameters of specific insect taxa. These are often calculated using the method of Ikemoto and Takai. However, this approach has key limitations. It assumes a homogeneous population and does not provide meaningful interval estimates, despite substantial variation within species and even populations. Moreover, by aggregating raw data before analysis, it discards valuable information, potentially reducing accuracy. 
+
+In this study, we propose an alternative method that addresses both issues. It estimates interval values for developmental parameters while simultaneously identifying component populations within a dataset. The method involves fitting a finite mixture of Weibull distributions to development time data using the Expectation-Maximization (EM) algorithm. This allows for the inclusion of individual-level variability in the estimation process. 
+
+We tested the method using previously published developmental data on two forensic beetle species, Creophilus maxillosus and Necrodes littoralis (Staphylinidae). Our approach yielded 95% intervals with coverage close to the nominal level, in contrast to Ikemoto and Takai’s method, which captured only 75% and 59% of actual cases, respectively. These findings suggest that our method improves the reliability of insect-based postmortem interval estimates in forensic entomology.
 
 ## Preprint
-Preprint will be available soon.
+You can access the preprint here: [Interval Estimation of Thermal Summation Parameters in Forensically Important Insects](https://www.researchsquare.com/article/rs-6823516/v1) (Research Square)
 
 ## History
 This project was a true test of perseverance — like navigating a labyrinth where every turn led to a dead end. We wandered from fuzzy logic to classical statistics, then took a detour into Bayesian methods, only to finally land on mixed models. Each approach seemed promising at first… until it wasn’t. But hey, every wrong turn was just a new lesson in disguise.
 
-I’d love to say this was the last time I’d wrestle with such a problem, but let’s be honest—if history has taught me anything, it’s that complex projects have a way of pulling me right back in. Fingers crossed, though!
+I’d love to say this was the last time I’d wrestle with such a problem, but let’s be honest; if history has taught me anything, it’s that complex projects have a way of pulling me right back in. Fingers crossed, though!
 
 ## Disclaimer
 The data used in this project were generously provided by the authors of other studies. You can access the original sources here:
