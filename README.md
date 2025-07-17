@@ -9,7 +9,7 @@ In this study, we propose an alternative method that addresses both issues. It e
 We tested the method using previously published developmental data on two forensic beetle species, Creophilus maxillosus and Necrodes littoralis (Staphylinidae). Our approach yielded 95% intervals with coverage close to the nominal level, in contrast to Ikemoto and Takai’s method, which captured only 75% and 59% of actual cases, respectively. These findings suggest that our method improves the reliability of insect-based postmortem interval estimates in forensic entomology.
 
 ## Preprint
-You can access the preprint here: [Interval Estimation of Thermal Summation Parameters in Forensically Important Insects](https://www.researchsquare.com/article/rs-6823516/v1) (Research Square)
+You can access the preprint here: [Interval Estimation of Thermal Summation Parameters in Forensically Important Insects (Research Square)](https://www.researchsquare.com/article/rs-6823516/v1) 
 
 ## History
 This project was a true test of perseverance — like navigating a labyrinth where every turn led to a dead end. We wandered from fuzzy logic to classical statistics, then took a detour into Bayesian methods, only to finally land on mixed models. Each approach seemed promising at first… until it wasn’t. But hey, every wrong turn was just a new lesson in disguise.
