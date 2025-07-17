@@ -1,4 +1,4 @@
-# Interval Estimation of Thermal Summation Parametersin Forensically Important Insects
+# Interval Estimation of Thermal Summation Parameters in Forensically Important Insects
 #### authors: Jędrzej Wydra, Łukasz Smaga, Szymon Matuszewski
 
 ## Abstract
