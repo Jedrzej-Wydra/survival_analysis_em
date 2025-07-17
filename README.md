@@ -24,5 +24,3 @@ The data used in this project were generously provided by the authors of other s
 
 Due to data-sharing agreements and the sensitivity of the information, I am unable to share the datasets directly. These datasets were used with permission, and all analyses were conducted in accordance with the respective data-sharing agreements.
 
-## Disclaimer2
-This project is still in progress, but the finish line is finally in sight.
