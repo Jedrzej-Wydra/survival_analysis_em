@@ -1,6 +1,12 @@
 # Interval Estimation of Thermal Summation Parameters in Forensically Important Insects
 #### authors: Jędrzej Wydra, Łukasz Smaga, Szymon Matuszewski
 
+## Short summary
+Developed a Python workflow for mixture modeling with EM optimization to improve interval estimation accuracy and validate model reliability through simulations.
+
+## Technical summary
+Implemented an Expectation-Maximization algorithm for fitting finite Weibull mixture models, capturing population heterogeneity in developmental data. Designed simulation-driven validation to evaluate coverage probabilities and interval reliability, benchmarking against classical regression-based approaches. Leveraged Python (NumPy, SciPy, Matplotlib, Seaborn) for model fitting, residual diagnostics, and visualization of coverage performance, ensuring reproducible and scalable interval estimation workflows.
+
 ## Abstract
 Estimating time of death based on entomological evidence commonly relies on the "law of total effective temperature", which requires developmental parameters of specific insect taxa. These are often calculated using the method of Ikemoto and Takai. However, this approach has key limitations. It assumes a homogeneous population and does not provide meaningful interval estimates, despite substantial variation within species and even populations. Moreover, by aggregating raw data before analysis, it discards valuable information, potentially reducing accuracy. 
 
